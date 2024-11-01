@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .cont{
+            border: 2px solid black;
+            width: 100%;
+            height: 400px;
+            display: flex;
+            flex-wrap: wrap;
+            /* flex-direction: column; */
+            /* flex-wrap: wrap; */
+            /* justify-content:space-evenly; */
+            /* align-items:flex-start; */
+            /* align-content: space-evenly; */
+        }
+        .box{
+            border: 2px solid red;
+            background-color: bisque;
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            /* align-content: center; */
+        }
+        #box1{
+            /* flex: 1 1 200px; */
+        }
+        #box2{
+            /* align-self: center; */
+            /* flex: 2 2 200px; */
+        }
+        #box3{
+            /* align-self: flex-end; */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="box" id="box1">first</div>
+        <div class="box" id="box2">second</div>
+        <div class="box" id="box3">third</div>
+        <div class="box" id="box4">fourth</div>
+        <div class="box" id="box5">fifth</div>
+        <div class="box" id="box6">sixth</div>
+    </div>
+</body>
+</html>
